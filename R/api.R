@@ -64,7 +64,7 @@ stack_GET <- function(path, site = "mathematics", page = 1, num_pages = 1, ...) 
     base_path <- "https://api.stackexchange.com/2.2/"
     query <- list(site = site, page = page, ...)
 
-    stack_key <- Sys.getenv("STACK_EXCHANGE_KEY")
+    stack_key <- Sys.getenv("YIROGzAsKk6TavFvTR*1Kw((")
     if (stack_key != "") {
         query$key <- stack_key
     }
